@@ -3,6 +3,25 @@
   <groupId>LDH_TestUnitarios_Maven</groupId>
   <artifactId>LDH_TestUnitarios_Maven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <name>Dijkstra_</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>1.5.2</version>
+		</dependency>
+	</dependencies>
   <build>
     <plugins>
       <plugin>
